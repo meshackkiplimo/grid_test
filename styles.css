@@ -8,7 +8,7 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 13px;
     line-height: 1.6;
-    background-color: hsl(214, 17%, 92%);
+    background-color: hwb(210 96% 3%);
     min-height: 100vh;
     display: grid;
     place-items: center;
@@ -67,7 +67,6 @@ body {
     line-height: 1.6;
 }
 
-/* Individual testimonial styles */
 .testimonial-daniel {
     grid-column: span 2;
     background-color: hsl(263, 55%, 52%);
@@ -110,7 +109,7 @@ body {
     color: hsl(217, 19%, 35%);
 }
 
-/* Tablet layout */
+
 @media (max-width: 1000px) {
     .testimonial-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -131,7 +130,7 @@ body {
     }
 }
 
-/* Mobile layout */
+
 @media (max-width: 600px) {
     body {
         padding: 1rem;
